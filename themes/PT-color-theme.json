@@ -1,0 +1,43 @@
+{
+    "name": "PT Color Theme",
+    "type": "dark",
+    "colors": {
+      "editor.foreground": "#FFFFFF",
+      "editor.background": "#1E1E1E"
+    },
+    "tokenColors": [
+      {
+        "scope": "comment.line.shebang.green.pt",
+        "settings": {
+          "foreground": "#00FF00",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "comment.line.pt",
+        "settings": {
+          "foreground": "#888888",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "bracket.round.pt",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      },
+      {
+        "scope": "bracket.square.pt",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      },
+      {
+        "scope": "bracket.curly.pt",
+        "settings": {
+          "foreground": "#ff0000"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,19 @@
+{
+  "scopeName": "source.pt",
+  "patterns": [
+    {
+      "name": "comment.line.shebang.pt",
+      "match": "^#!.*$",
+      "captures": {
+        "0": {
+          "name": "comment.line.shebang.green.pt"
+        }
+      }
+    }
+  ],
+  "repository": {
+  },
+  "fileTypes": [
+    "pt"
+  ]
+}

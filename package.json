@@ -3,29 +3,47 @@
   "displayName": "vscode-instruct",
   "description": "Create instructions for Large Language Models",
   "version": "0.0.1",
+  "publisher": "Xavier Basset",
   "engines": {
     "vscode": "^1.89.0"
   },
   "categories": [
-    "Other"
+    "Themes",
+    "Programming Languages"
   ],
-  "activationEvents": [],
-  "main": "./out/extension.js",
   "contributes": {
-    "commands": [
+    "languages": [
       {
-        "command": "vscode-instruct.helloWorld",
-        "title": "Hello World"
+        "id": "pt",
+        "aliases": ["PT", "pt"],
+        "extensions": [".pt"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "pt",
+        "scopeName": "source.pt",
+        "path": "./syntaxes/pt.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "PT Color Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/PT-color-theme.json"
       }
     ]
   },
+  "activationEvents": [
+    "onLanguage:pt"
+  ],
+  "main": "./out/extension.js",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "pretest": "npm run compile && npm run lint",
-    "lint": "eslint src --ext ts",
-    "test": "vscode-test"
+    "postinstall": "node ./out/install.js"
   },
   "devDependencies": {
     "@types/vscode": "^1.89.0",
