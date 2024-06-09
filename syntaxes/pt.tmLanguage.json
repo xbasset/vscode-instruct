@@ -7,7 +7,7 @@
 
     {
       "name": "entity.name.tag.pt",
-      "match": "</?[a-zA-Z0-9-]+"
+      "match": "</?[a-zA-Z0-9-]+(\\s+[a-zA-Z0-9-]+)*"
   },
   {
       "name": "punctuation.definition.tag.pt",
