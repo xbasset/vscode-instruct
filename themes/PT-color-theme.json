@@ -37,6 +37,18 @@
         "settings": {
           "foreground": "#ff0000"
         }
+      },
+      {
+        "scope": "entity.name.tag.pt",
+        "settings": {
+          "foreground": "#00a2ff"
+        }
+      },
+      {
+        "scope": "punctuation.definition.tag.pt",
+        "settings": {
+          "foreground": "#00a2ff"
+        }
       }
     ]
   }
