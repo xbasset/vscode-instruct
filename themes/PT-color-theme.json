@@ -39,6 +39,36 @@
         }
       },
       {
+        "scope": "punctuation.other.jinja",
+        "settings": {
+          "foreground": "#f97272"
+        }
+      },
+      {
+        "scope": "keyword.control.jinja",
+        "settings": {
+          "foreground": "#c27bc3"
+        }
+      },
+      {
+        "scope": "comment.block.jinja",
+        "settings": {
+          "foreground": "#00a413"
+        }
+      },
+      {
+        "scope": "variable.other.jinja.filter",
+        "settings": {
+          "foreground": "#a9c605"
+        }
+      },
+      {
+        "scope": "variable.other.jinja",
+        "settings": {
+          "foreground": "#8ec7ed"
+        }
+      },
+      {
         "scope": "entity.name.tag.pt",
         "settings": {
           "foreground": "#00a2ff"
