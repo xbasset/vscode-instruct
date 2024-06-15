@@ -4,15 +4,14 @@
   "foldingStartMarker": "({%\\s*(block|filter|for|if|macro|raw))",
   "foldingStopMarker": "({%\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*%})",
   "patterns": [
-
     {
       "name": "entity.name.tag.pt",
-      "match": "</?[a-zA-Z0-9-]+(\\s+[a-zA-Z0-9-]+)*"
-  },
-  {
+      "match": "</?.*?>"
+    },
+    {
       "name": "punctuation.definition.tag.pt",
       "match": "/?>"
-  },
+    },
     {
       "name": "comment.line.shebang.pt",
       "match": "^#!.*$",
@@ -362,9 +361,9 @@
       ]
     },
     "tag": {
-        "name": "entity.name.tag.pt",
-        "begin": "</?[a-zA-Z0-9-]+",
-        "end": "/?>"
+      "name": "entity.name.tag.pt",
+      "begin": "</?[a-zA-Z0-9-]+",
+      "end": "/?>"
     }
   },
   "fileTypes": [

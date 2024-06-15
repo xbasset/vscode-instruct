@@ -15,8 +15,8 @@
     "languages": [
       {
         "id": "pt",
-        "aliases": ["PT", "pt"],
-        "extensions": [".pt"],
+        "aliases": ["PT", "pt", "instruct"],
+        "extensions": [".pt", ".instruct"],
         "configuration": "./language-configuration.json"
       }
     ],
@@ -35,9 +35,6 @@
       }
     ]
   },
-  "activationEvents": [
-    "onLanguage:pt"
-  ],
   "main": "./out/extension.js",
   "scripts": {
     "vscode:prepublish": "npm run compile",
