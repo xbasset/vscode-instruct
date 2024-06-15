@@ -7,33 +7,33 @@
     },
     "tokenColors": [
       {
-        "scope": "comment.line.shebang.green.pt",
+        "scope": "comment.line.shebang.green.instruct",
         "settings": {
           "foreground": "#00FF00",
           "fontStyle": "italic"
         }
       },
       {
-        "scope": "comment.line.pt",
+        "scope": "comment.line.instruct",
         "settings": {
           "foreground": "#888888",
           "fontStyle": "italic"
         }
       },
       {
-        "scope": "bracket.round.pt",
+        "scope": "bracket.round.instruct",
         "settings": {
           "foreground": "#FFFF00"
         }
       },
       {
-        "scope": "bracket.square.pt",
+        "scope": "bracket.square.instruct",
         "settings": {
           "foreground": "#FFFF00"
         }
       },
       {
-        "scope": "bracket.curly.pt",
+        "scope": "bracket.curly.instruct",
         "settings": {
           "foreground": "#ff0000"
         }
@@ -69,13 +69,13 @@
         }
       },
       {
-        "scope": "entity.name.tag.pt",
+        "scope": "entity.name.tag.instruct",
         "settings": {
           "foreground": "#00a2ff"
         }
       },
       {
-        "scope": "punctuation.definition.tag.pt",
+        "scope": "punctuation.definition.tag.instruct",
         "settings": {
           "foreground": "#00a2ff"
         }

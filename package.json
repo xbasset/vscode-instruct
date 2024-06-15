@@ -14,24 +14,24 @@
   "contributes": {
     "languages": [
       {
-        "id": "pt",
-        "aliases": ["PT", "pt", "instruct"],
-        "extensions": [".pt", ".instruct"],
+        "id": "instruct",
+        "aliases": ["instruct"],
+        "extensions": [".instruct"],
         "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
       {
-        "language": "pt",
-        "scopeName": "source.pt",
-        "path": "./syntaxes/pt.tmLanguage.json"
+        "language": "instruct",
+        "scopeName": "source.instruct",
+        "path": "./syntaxes/instruct.tmLanguage.json"
       }
     ],
     "themes": [
       {
-        "label": "PT Color Theme",
+        "label": "Instruct Color Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/PT-color-theme.json"
+        "path": "./themes/instruct-color-theme.json"
       }
     ]
   },

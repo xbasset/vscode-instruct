@@ -1,23 +1,23 @@
 {
   "name": "instruct",
-  "scopeName": "source.pt",
+  "scopeName": "source.instruct",
   "foldingStartMarker": "({%\\s*(block|filter|for|if|macro|raw))",
   "foldingStopMarker": "({%\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*%})",
   "patterns": [
     {
-      "name": "entity.name.tag.pt",
+      "name": "entity.name.tag.instruct",
       "match": "</?.*?>"
     },
     {
-      "name": "punctuation.definition.tag.pt",
+      "name": "punctuation.definition.tag.instruct",
       "match": "/?>"
     },
     {
-      "name": "comment.line.shebang.pt",
+      "name": "comment.line.shebang.instruct",
       "match": "^#!.*$",
       "captures": {
         "0": {
-          "name": "comment.line.shebang.green.pt"
+          "name": "comment.line.shebang.green.instruct"
         }
       }
     },
@@ -361,7 +361,7 @@
       ]
     },
     "tag": {
-      "name": "entity.name.tag.pt",
+      "name": "entity.name.tag.instruct",
       "begin": "</?[a-zA-Z0-9-]+",
       "end": "/?>"
     }
